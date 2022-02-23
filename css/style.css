@@ -103,6 +103,12 @@ select{
    box-shadow: 0px 3px 6px #00000029;
    margin-bottom: 25px;
 }
+.item-number hr{
+    height: 1px;
+    border-color: #00000029;
+    border-width: 1px;
+    margin-top: 20px;
+}
 .item-description{
     display: flex;
     flex-wrap: wrap;
@@ -117,4 +123,33 @@ select{
 }
 .item-text{
     width: 70%;
+    padding-top: 13px;
+}
+.item-text h1{
+    letter-spacing: 0px;
+}
+.item-text p{
+    color: #8C96AB;
+}
+.item-text h4{
+    color: #8C96AB;
+}
+.item-type{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 0px;
+    
+}
+.item-name{
+    width: 20%;
+}
+.item-name p{
+    text-transform: uppercase;
+    color: #8C96AB;
+}
+.item-price{
+    width: 70%;
+}
+.item-price p{
+    color: #8C96AB;
 }
