@@ -3,3 +3,74 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background-color: #CE0505;
+    padding: 13px 0px;
+}
+.header-wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 50%;
+  
+}
+.main-logo{
+    width: 46px;
+    height: 46px;
+    background-color: #fff;
+   
+    border-radius: 100%;
+}
+.main-logo h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: #CE0505;
+   padding-top: 3px;
+}
+.buttons {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.login h3{
+    margin-right: 39px;
+    color: #fff;
+    margin-top: 12px;
+}
+.create-btn{
+    padding: 0px 24px;
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.body-heading{
+    padding: 13px 0px;
+}
+.item-sec{
+    display: flex;
+}
+.filter{
+   width: 30%;
+   background-color: #fff;
+   box-shadow: 0px 3px 6px #00000029;
+   height: 400px;
+   padding: 27px;
+}
+.item-lists{
+    width: 65%;
+    margin-left: 5%;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px #00000029;
+}
