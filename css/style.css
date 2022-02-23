@@ -95,11 +95,13 @@ select{
     width: 70%;
     margin-left: 5%;
     /* height: 400px; */
-    background-color: #fff;
-    box-shadow: 0px 3px 6px #00000029;
+  
 }
 .item-number{
    padding: 20px;
+   background-color: #fff;
+   box-shadow: 0px 3px 6px #00000029;
+   margin-bottom: 25px;
 }
 .item-description{
     display: flex;
