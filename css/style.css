@@ -169,3 +169,16 @@ select{
     margin-left: 10px;
     border-radius: 10px;
   }
+  @media only screen and ( max-width:1217px) {
+      .container{
+          max-width: 1000px;
+      }
+  }
+  @media only screen and (max-width:420px) {
+    .filter {
+        display: none;
+    }
+    .item-lists {
+        width: 90%;
+    }
+  }
