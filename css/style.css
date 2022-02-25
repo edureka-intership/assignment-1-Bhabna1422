@@ -175,10 +175,39 @@ select{
       }
   }
   @media only screen and (max-width:420px) {
+    .container {
+        max-width: 365px;
+    }
+    .item-sec {
+        display: inline-block;
+    }
     .filter {
-        display: none;
+       width: 100%;
     }
     .item-lists {
-        width: 90%;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .item-text {
+        margin-left: 6%;
+        width: 64%;
+        padding-top: 4px;
+    }
+    .item-img {
+        width: 30%;
+    }
+    .item-name {
+        width: 45%;
+    }
+    .item-price {
+        width: 55%;
+    }
+    .create-btn {
+        width: 70%;
+      
+        font-size: 13px;
+    }
+    .login{
+        width: 30%;
     }
   }
